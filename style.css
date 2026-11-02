@@ -8,11 +8,27 @@
     scroll-behavior: smooth;
 }
 
+
 body {
-    background: #080d19;
+    margin: 0;
+    padding: 0;
     color: white;
     font-family: Arial, sans-serif;
+
+    /* Imagen de fondo */
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 /* NAVEGACIÓN */
 
@@ -295,3 +311,4 @@ footer {
         font-size: 18px;
     }
 }
+
